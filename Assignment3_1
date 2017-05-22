@@ -36,10 +36,9 @@ public class Assignment3_1 {
 		product = num1 * num2;
 		
 		// Show results
-		if(sum  * 3 > product) 
+		if(sum * 3 > product) 
 			System.out.println("Sum is 3 times greater than product.");
-		
-		if(sum * 3 < product)
+		else if(sum * 3 < product)
 			System.out.println("Sum is not 3 times greater than product.");					
 	}
 }
