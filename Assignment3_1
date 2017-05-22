@@ -1,0 +1,42 @@
+/*
+ * Write a console (all I/O via System.in and System.out) program that reads two integer numbers and identifies
+ * if their sum is at least 3 times greater than their product. Print the conclusion.
+ */
+
+/**
+ * Programming & Problem Solving I
+ * Assignment 3_1
+ * 05/22/2017
+ * @author spartin
+ */
+
+import java.util.Scanner;
+
+public class Assignment3_1 {
+	
+	public static void main(String[] args) {
+		// Create new Scanner object
+		Scanner input = new Scanner(System.in);
+		
+		// Declare variables
+		int num1;
+		int num2;
+		int sum;
+		int product;
+		
+		// User provides numbers 1 & 2
+		System.out.print("Enter first integer: ");
+		num1 = input.nextInt();
+		
+		System.out.print("Enter second integer: ");
+		num2 = input.nextInt();
+		
+		// Calculate sum and product of the two numbers
+		sum = num1 + num2;
+		product = num1 * num2;
+		
+		// Show results
+		if(sum > product)
+			
+	}
+}
