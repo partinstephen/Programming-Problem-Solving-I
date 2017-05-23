@@ -1,1 +1,27 @@
+/*
+ * Write a console program with a for loop that prints 5, 9, 13, 17, ..., 101.
+ */
+
+/**
+ * Programming & Problem Solving I
+ * Assignment 3_3
+ * 05/22/2017
+ * @author spartin
+ */
+
+import java.util.Scanner;
+
+public class Assignment3_3 {
+
+	public static void main(String[] args) {
+		// Create new Scanner object
+		Scanner input = new Scanner(System.in);
+		
+		// Create for loop and print result
+		for(int counter=5;counter<=101;counter+=4) {
+			System.out.println(counter);		
+				}
+		}
+
+}
 
