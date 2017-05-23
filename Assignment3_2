@@ -1,1 +1,20 @@
+/*
+ * Write a console program that reads in two integer numbers and identifies if they are co-prime
+ */
 
+/**
+ * Programming & Problem Solving I
+ * Assignment 3_2
+ * 05/22/2017
+ * @author spartin
+ */
+
+import java.util.Scanner;
+
+public class Assignement3_2 {
+	
+	public static void main(String[] args) {
+		// Create new Scanner object
+		Scanner input = new Scanner(System.in);
+	}
+}
